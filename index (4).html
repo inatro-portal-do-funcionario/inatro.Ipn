@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista das Escolas Licenciadas Norte</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4f9f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e7f3e;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-color: white;
+      object-fit: cover;
+    }
+    header h1 {
+      font-size: 22px;
+      margin: 0;
+      letter-spacing: 0.5px;
+    }
+    .usuario {
+      font-size: 15px;
+      color: #dfffe0;
+      font-weight: 600;
+    }
+    .viewer-container {
+      width: 100%;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e8f5e9;
+    }
+    iframe {
+      width: 90%;
+      height: 88vh;
+      border: none;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      border-radius: 12px;
+      background: white;
+    }
+    footer {
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+      padding: 10px;
+      background-color: #f4f9f4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logótipo">
+      <h1>Portal do Funcionário</h1>
+      <h2>Lista das Escolas e seus contactos</h2>
+    </div>
+    <div class="usuario">Usuário: Mateus </div>
+  </header>
+
+  <div class="viewer-container">
+    <iframe 
+      src="liste.jpg#toolbar=0"></iframe> 
+      title="somente pessoal autorizado">
+    </iframe>
+  </div>
+
+  <footer>
+    © 2022 INATRO. Desenvolvido por ITS - International Trading and Solutions.
+  </footer>
+</body>
+</html>
